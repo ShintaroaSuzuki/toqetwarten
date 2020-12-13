@@ -1,6 +1,18 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+
+/*
+export async function getStaticProps() {
+    const allPostsData = getSortedPostsData();
+    return {
+        props: {
+            allPostsData
+        }
+    };
+}
+*/
 
 export default function Home() {
     return (
@@ -12,7 +24,12 @@ export default function Home() {
 
             <main className={styles.main}>
                 <div className="gradient">
-                    <img src="/gorilla_smooth.jpeg" alt="gorilla" />
+                    <Image
+                        src="/gorilla_smooth.jpeg"
+                        alt="gorilla"
+                        width="1920"
+                        height="1080"
+                    />
                     <div className="titleLogo">
                         <p className="title">toqetwarten</p>
                         <hr className="logoBar" />
