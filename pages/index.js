@@ -12,8 +12,8 @@ export default function Home() {
 
             <main className={styles.main}>
                 <div className="gradient">
-                    <img src="/gorilla_smooth.jpeg" />
-                    <div className="titleLogo" alt="gorilla">
+                    <img src="/gorilla_smooth.jpeg" alt="gorilla" />
+                    <div className="titleLogo">
                         <p className="title">toqetwarten</p>
                         <hr className="logoBar" />
                     </div>
