@@ -41,7 +41,7 @@ export default function Home() {
                         <Link href="./products">
                             <a className="tab">products</a>
                         </Link>
-                        <Link href="./ir">
+                        <Link href="./investor-relations">
                             <a className="tab">IR</a>
                         </Link>
                         <Link href="./recruit">
