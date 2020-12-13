@@ -13,7 +13,7 @@ export default function Home() {
             <main className={styles.main}>
                 <div className="gradient">
                     <img src="/gorilla_smooth.jpeg" />
-                    <div className="titleLogo">
+                    <div className="titleLogo" alt="gorilla">
                         <p className="title">toqetwarten</p>
                         <hr className="logoBar" />
                     </div>
@@ -24,7 +24,7 @@ export default function Home() {
                         <Link href="./products">
                             <a className="tab">products</a>
                         </Link>
-                        <Link href="./IR">
+                        <Link href="./ir">
                             <a className="tab">IR</a>
                         </Link>
                         <Link href="./recruit">
